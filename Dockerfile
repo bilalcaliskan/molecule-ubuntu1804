@@ -1,6 +1,6 @@
 FROM ubuntu:18.04
 
-MAINTAINER bilalcaliskan
+LABEL maintainer="bilalcaliskan"
 ENV DEBIAN_FRONTEND noninteractive
 ENV PIP_PACKAGES pip ansible==2.9.16 pyopenssl
 ENV APT_PACKAGES wget apt-utils build-essential locales zlib1g-dev \
