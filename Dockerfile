@@ -9,6 +9,8 @@ RUN apt-get update \
        python3-setuptools \
        python3-pip \
        python3-wheel \
+       python3-dev \
+       build-essential libssl-dev libffi-dev \
        systemd \
        rsyslog \
        sudo \
